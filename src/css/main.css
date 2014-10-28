@@ -276,19 +276,20 @@ textarea {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	/*border: 1px solid;*/
+	border: 1px solid;
 }
 #banner {
-	width: 593px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: blue;
+	clear: both;
 }
 #content {
-	width: 530px;
+	width: 593px;
+	border: 1px solid;
 	float: left;
-	padding-left: 24px;
-	padding-right: 24px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 #article_title {
 	height: 87px;
@@ -296,8 +297,10 @@ textarea {
 }
 #sidebar {
 	background-color: red;
-	width: 367px;
-	float: left;
+	/*width: 367px;*/
+	float: right;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 #footer {
 	clear: both;
@@ -352,10 +355,10 @@ p.first {
 	margin-top: 0px;
 }
 
-.codercat {
-	float: left;
-	height: 100px;
-	width: 100px;
+img.profile_pic {
+	display: block;
+	height: 226px;
+	width: 226px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
