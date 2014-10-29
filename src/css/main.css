@@ -289,18 +289,19 @@ textarea {
 	line-height: 53px;
 	text-align: center;
 }
+#sidebar{
+	float: right;
+	width: 367px;
+}
 #news {
 	float: left;
 	width: 593px;
 	height: 181px;
 	border-bottom: 1px solid;
 }
-#sidebar {
-	float: left;
-	width: 367px;
-	background-color: blue;
-}
 #footer {
+	font-size: 80%;
+	text-align: center;
 	clear: both;
 }
 
